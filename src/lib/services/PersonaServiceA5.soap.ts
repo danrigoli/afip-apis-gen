@@ -37,8 +37,8 @@ export class PersonaServiceA5 extends SoapService implements service.IPersonaSer
         const soapEnvelope = builder.buildObject(envelope);
         debug("getPersona;soapEnvelope: %s", soapEnvelope);
         return new Promise<service.IgetPersonaOutput>((resolve, reject) => {
-            return this.invoke<{ "ns2:getPersonaResponse": service.IgetPersonaOutput }>(soapEnvelope, undefined, extraHeaders)
-                .then(r => resolve(r["ns2:getPersonaResponse"]))
+            return this.invoke<{ "ns2:getPersona_v2Response": service.IgetPersonaOutput }>(soapEnvelope, undefined, extraHeaders)
+                .then(r => resolve(r["ns2:getPersona_v2Response"]))
                 .catch(err => reject(err));
         });
     };
