@@ -1,6 +1,6 @@
 {
   "name": "afip-apis-gen",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Integracion con webservices afip, actualizado el servicio A5",
   "homepage": "https://genit.com.ar/",
   "author": "Dante Rigoli <drigoli@gen-it.com.ar>",
