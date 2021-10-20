@@ -30,7 +30,7 @@ export class PersonaServiceA5 extends SoapService implements service.IPersonaSer
                 },
                 "soapenv:Header": <any>undefined,
                 "soapenv:Body": {
-                    "a5:getPersona": input
+                    "a5:getPersona_v2": input
                 }
             }
         };
